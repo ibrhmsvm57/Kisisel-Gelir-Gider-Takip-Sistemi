@@ -1,19 +1,16 @@
-# 💰 Kişisel Gelir-Gider Takip Sistemi
+Bu proje, hem finansal verileri yönetmek hem de günlük görevleri takip etmek amacıyla C# dili ile geliştirilmiş bir masaüstü uygulamasıdır. Yönetim Bilişim Sistemleri (YBS) projelerim kapsamında teknik ve operasyonel süreçleri yönetme becerilerimi yansıtmak üzere tasarlanmıştır.
 
-Kullanıcıların finansal verilerini kolayca yönetebilmesi için geliştirilmiş C# tabanlı masaüstü uygulaması.
+## 🚀 Öne Çıkan Özellikler
+* **Finans Yönetimi:** Gelir ve gider kalemlerini kaydedebilme ve bütçe takibi yapabilme.
+* **Görev Takibi (To-Do):** Günlük yapılacak işleri listeleme ve tamamlama durumunu kontrol etme.
+* **Veri Yönetimi:** Nesne yönelimli programlama (OOP) prensipleriyle kodlanmış veri işleme mantığı.
 
-## ✨ Temel Özellikler
-* **Gelir/Gider Kaydı:** Harcamalarınızı ve kazançlarınızı kategorize ederek kaydedebilirsiniz.
-* **Veritabanı Yönetimi:** Veriler MSSQL üzerinde güvenli bir şekilde saklanır.
-* **Raporlama:** Aylık ve haftalık bazda harcama grafiklerini görüntüleme.
+## 🛠️ Teknik Altyapı
+* **Programlama Dili:** C#
+* **Platform:** .NET (Windows Forms)
+* **Veri Yapısı:**JSON/XML Dosya Yapısı
 
-## 💻 Kullanılan Teknolojiler
-* **Dil:** C# (.NET Framework/Core)
-* **Veritabanı:** MSSQL Server
-* **ORM:** Entity Framework (Eğer kullandıysan ekle)
-* **Arayüz:** Windows Forms / WPF
-
-## 🛠️ Kurulum ve Kullanım
-1. Projeyi klonlayın.
-2. `App.config` dosyasındaki SQL Connection String bilgisini kendi yerel veritabanınıza göre güncelleyin.
-3. Visual Studio üzerinden çalıştırın.
+## 📂 Proje Yapısı
+* `FinansIslem.cs`: Finansal hesaplamalar ve mantıksal süreçlerin yönetimi.
+* `Gorev.cs`: Görev yönetimi ve listeleme fonksiyonları.
+* `KisiselAsistan.sln`: Proje çözüm dosyası.
